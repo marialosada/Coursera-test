@@ -1,0 +1,80 @@
+
+.cuadroPollo{
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	border: 1px solid black;
+	background: #c0c0c0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.cuadroCarne{
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	border: 1px solid black;
+	background: #c0c0c0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.cuadroPescado{
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	border: 1px solid black;
+	background: #c0c0c0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.tituloPollo{
+	background: #ff0000;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	max-width: 100%;
+	padding: 3px;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 175%;
+}
+
+.tituloCarne{
+	background: #ff0000;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	max-width: 100%;
+	padding: 3px;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 175%;
+}
+
+.tituloPescado{
+	background: #ff0000;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	max-width: 100%;
+	padding: 3px;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 175%;
+}
+
+.text{
+	background: transparent;
+	position: relative;
+	left: 0;
+	top: 15px;
+	max-width: 100%;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 100%;
+}
