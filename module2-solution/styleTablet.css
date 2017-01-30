@@ -87,6 +87,16 @@
         padding: 0px;
         width: 30%;
     }
+    [class*="cuadroCarne"] {
+        padding: 0px;
+		width: 30%;
+	    }
+    [class*="cuadroPescado"] {
+        padding: 0px;
+        width: 30%;
+    }
+}
+
 
 @media only all and (min-width: 768px) and (max-with: 991px) {
     /* For tablet: */
@@ -94,11 +104,28 @@
         padding: 10px;
         width: 47%;
     }
+    [class*="cuadroCarne"] {
+        padding: 10px;
+        width: 47%;
+    }
+    [class*="cuadroPescado"] {
+        padding: 10px;
+		width: 95%;
+    }
+}
 
 @media only all and (max-with: 767px) {
     /* For phone: */
     [class*="cuadroPollo"] {
         padding: 10px;
+        min-width: 100px;
+    }
+    [class*="cuadroCarne"] {
+        padding: 10px;
+        min-width: 100px;
+    }
+    [class*="cuadroPescado"] {
+        padding: 0px;
         min-width: 100px;
     }
 }
