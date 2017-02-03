@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi Menu</title>	
+
+	<style>
+		.h1{
+			margin-bottom: 15px;  
+		}
+		.row{
+			width: 100%
+		}
+
+		/*Desktop*/
+			@media (min-width: 992px){
+				.cuadroPollo, .cuadroCarne, .cuadroPescado{
+					float: left;
+					margin: 10px;
+					padding: 10px;
+					width: 30%
+					height: 200px;
+					border: 1px solid black;
+					background: #c0c0c0;
+					position: relative;
+					box-sizing: border-box;
+				}
+				.tituloPollo, .tituloCarne, .tituloPescado{
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					max-width: 100%;
+					padding: 10px;
+					border: 1px solid black;
+					font-family: Arial;
+					font-size: 175%;
+				}
+				.tituloPollo{
+					background: #ff80c0;	
+				}
+				.tituloCarne{
+					background: #ff0000;
+				}
+				.tituloPescado{
+					background: #ffff00;
+				}
+
+				.textoPollo, .textoCarne, .textoPescado{
+					background: transparent;
+					position: relative;
+					left: 0px;
+					top: 15px;
+					max-width: 100%;
+					padding: 10px;
+					font-family: century gothic;
+					font-size: 100%;
+				}
+			}
+
+
+		/*Tablet*/
+			@media (min-width: 768px) and (max-width: 991px){
+				.cuadroPollo, .cuadroCarne, .cuadroPescado{
+					float: left;
+					margin: 10px;
+					padding: 10px;
+					height: auto;
+					border: 1px solid black;
+					background: #c0c0c0;
+					position: relative;
+					box-sizing: border-box;
+				}
+
+				.cuadroPollo{
+					width: 45%
+				}
+				.cuadroCarne{
+					width: 45%
+				}
+				.cuadroPescado{
+					width: 92.5%
+				}
+
+				.tituloPollo, .tituloCarne, .tituloPescado{
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					max-width: 100%;
+					padding: 8px;
+					border: 1px solid black;
+					font-family: century gothic;
+					font-size: 175%;
+				}
+				.tituloPollo{
+					background: #ff80c0;	
+				}
+				.tituloCarne{
+					background: #ff0000;
+				}
+				.tituloPescado{
+					background: #ffff00;
+				}
+
+				.textoPollo, .textoCarne, .textoPescado{
+					background: transparent;
+					position: relative;
+					left: 0px;
+					top: 15px;
+					max-width: 100%;
+					padding: 10px;
+					font-family: century gothic;
+					font-size: 100%;
+				}
+				.textoPollo{
+					margin-top: 20px:;
+				}
+				.textoCarne{
+					margin-top: 20px;
+				}
+				.textoPescado{
+					margin-top: 0px;
+				}
+			}
+
+
+		/*Movil*/
+			@media (max-width: 767px){
+				.cuadroPollo, .cuadroCarne, .cuadroPescado{
+					float: left;
+					margin: 10px;
+					padding: 10px;
+					min-width: 100px;
+					height: auto;
+					border: 1px solid black;
+					background: #c0c0c0;
+					position: relative;
+					box-sizing: border-box;
+				}
+
+			
+				.tituloPollo, .tituloCarne, .tituloPescado{
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					max-width: 100%;
+					padding: 8px;
+					border: 1px solid black;
+					font-family: century gothic;
+					font-size: 175%;
+				}
+				.tituloPollo{
+					background: #ff80c0;	
+				}
+				.tituloCarne{
+					background: #ff0000;
+				}
+				.tituloPescado{
+					background: #ffff00;
+				}
+
+				.textoPollo, .textoCarne, .textoPescado{
+					background: transparent;
+					position: relative;
+					left: 0px;
+					top: 15px;
+					max-width: 100%;
+					padding: 10px;
+					font-family: century gothic;
+					font-size: 100%;
+					margin-top: 20px;
+				}
+			}
+	</style>
+
+	</head>
+<body>
+	<h1 align="center">Mi Menu!</h1>
+	<div class="row">
+		<div class="cuadroPollo" align="center">
+			<div class="tituloPollo" align="center"> Pollo</div>
+
+			<div class="textoPollo" align="left">
+				<p>Pollo es el nombre que reciben las crías de las gallinas y de otras aves.</p> 
+				<p>El término, que tiene su origen etimológico en el vocablo latino pullus, también se emplea para nombrar a la carne de este animal, que es un alimento muy consumido por el ser humano.</p>
+			</div>
+		</div>
+
+		<div class="cuadroCarne" align="carne">
+			<div class="tituloCarne" align="center">Carne</div>
+
+			<div class="textoCarne" align="left">
+				<p>La carne es la parte muscular del cuerpo de los animales y del ser humano. El término tiene varios usos y significados según el contexto.</p>
+				<p>La utilización más frecuente refiere a la carne comestible de animales terrestres como la vaca, el cerdo, el cordero, etc.</p>
+			</div>
+		</div>
+
+		<div class="cuadroPescado" align="center">
+			<div class="tituloPescado" align="center">Pescado</div>
+
+			<div class="textoPescado" align="left">
+				<p>El pescado es un concepto que deriva del latín piscatus. Se trata del nombre que recibe el pez que una vez extraído de su hábitat puede convertirse en alimento para el ser humano.</p>
+				<p>Para obtener pescado, por lo tanto, hay que pescar. La pesca puede realizarse de múltiples maneras, tanto a nivel artesanal como industrial. </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
